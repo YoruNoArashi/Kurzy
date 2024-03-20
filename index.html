@@ -1,0 +1,184 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurzy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Údaje se porovnávají s Českou korunou</h1>
+    <div id="kurzy_main" style="padding:2px;text-align:left;">
+    <div id="kurzy_head" style="white-space: nowrap;">
+    <a href="https://www.kurzy.cz/kurzy-men/"
+    title="Kurzy měn, kurzovní lístek ČNB" 
+    id="kurzy_datum">Kurzy ČNB</a>
+    </div>
+    <table id="k__t">
+    <tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/USD-americky-dolar/" id="k__USD" title="americký dolar, USA, USD - nejlepší kurzy bank, kurzy ČNB">USD</a></td>
+    <td id="kf__USD"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__USD"></td>
+    <td id="kz__USD"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/GBP-britska-libra/" id="k__GBP" title="britská libra, Británie, GBP - nejlepší kurzy bank, kurzy ČNB">GBP</a></td>
+    <td id="kf__GBP"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__GBP"></td>
+    <td id="kz__GBP"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/EUR-euro/" id="k__EUR" title="euro, EMU EURO, EUR - nejlepší kurzy bank, kurzy ČNB">EUR</a></td>
+    <td id="kf__EUR"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__EUR"></td>
+    <td id="kz__EUR"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/AUD-australsky-dolar/" id="k__AUD" title="australský dolar, Austrálie, AUD - nejlepší kurzy bank, kurzy ČNB">AUD</a></td>
+    <td id="kf__AUD"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__AUD"></td>
+    <td id="kz__AUD"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/BRL-brazilsky-real/" id="k__BRL" title="brazilský real, Brazílie, BRL - nejlepší kurzy bank, kurzy ČNB">BRL</a></td>
+    <td id="kf__BRL"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__BRL"></td>
+    <td id="kz__BRL"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/BGN-bulharsky-lev/" id="k__BGN" title="bulharský lev, Bulharsko, BGN - nejlepší kurzy bank, kurzy ČNB">BGN</a></td>
+    <td id="kf__BGN"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__BGN"></td>
+    <td id="kz__BGN"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/CNY-cinsky-juan/" id="k__CNY" title="čínský juan, Čína, CNY - nejlepší kurzy bank, kurzy ČNB">CNY</a></td>
+    <td id="kf__CNY"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__CNY"></td>
+    <td id="kz__CNY"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/DKK-danska-koruna/" id="k__DKK" title="dánská koruna, Dánsko, DKK - nejlepší kurzy bank, kurzy ČNB">DKK</a></td>
+    <td id="kf__DKK"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__DKK"></td>
+    <td id="kz__DKK"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/PHP-filipinske-peso/" id="k__PHP" title="filipínské peso, Filipíny, PHP - nejlepší kurzy bank, kurzy ČNB">PHP</a></td>
+    <td id="kf__PHP"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__PHP"></td>
+    <td id="kz__PHP"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/HKD-hongkongsky-dolar/" id="k__HKD" title="hongkongský dolar, Hong Kong, HKD - nejlepší kurzy bank, kurzy ČNB">HKD</a></td>
+    <td id="kf__HKD"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__HKD"></td>
+    <td id="kz__HKD"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/INR-indicka-rupie/" id="k__INR" title="indická rupie, Indie, INR - nejlepší kurzy bank, kurzy ČNB">INR</a></td>
+    <td id="kf__INR"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__INR"></td>
+    <td id="kz__INR"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/IDR-indoneska-rupie/" id="k__IDR" title="indonéská rupie, Indonésie, IDR - nejlepší kurzy bank, kurzy ČNB">IDR</a></td>
+    <td id="kf__IDR"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__IDR"></td>
+    <td id="kz__IDR"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/ISK-islandska-koruna/" id="k__ISK" title="islandská koruna, Island, ISK - nejlepší kurzy bank, kurzy ČNB">ISK</a></td>
+    <td id="kf__ISK"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__ISK"></td>
+    <td id="kz__ISK"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/ILS-izraelsky-sekel/" id="k__ILS" title="izraelský šekel, Izrael, ILS - nejlepší kurzy bank, kurzy ČNB">ILS</a></td>
+    <td id="kf__ILS"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__ILS"></td>
+    <td id="kz__ILS"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/JPY-japonsky-jen/" id="k__JPY" title="japonský jen, Japonsko, JPY - nejlepší kurzy bank, kurzy ČNB">JPY</a></td>
+    <td id="kf__JPY"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__JPY"></td>
+    <td id="kz__JPY"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/ZAR-jihoafricky-rand/" id="k__ZAR" title="jihoafrický rand, Jihoafr. rep., ZAR - nejlepší kurzy bank, kurzy ČNB">ZAR</a></td>
+    <td id="kf__ZAR"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__ZAR"></td>
+    <td id="kz__ZAR"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/KRW-jihokorejsky-won/" id="k__KRW" title="jihokorejský won, Jižní Korea, KRW - nejlepší kurzy bank, kurzy ČNB">KRW</a></td>
+    <td id="kf__KRW"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__KRW"></td>
+    <td id="kz__KRW"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/CAD-kanadsky-dolar/" id="k__CAD" title="kanadský dolar, Kanada, CAD - nejlepší kurzy bank, kurzy ČNB">CAD</a></td>
+    <td id="kf__CAD"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__CAD"></td>
+    <td id="kz__CAD"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/HUF-madarsky-forint/" id="k__HUF" title="maďarský forint, Maďarsko, HUF - nejlepší kurzy bank, kurzy ČNB">HUF</a></td>
+    <td id="kf__HUF"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__HUF"></td>
+    <td id="kz__HUF"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/MYR-malajsijsky-ringgit/" id="k__MYR" title="malajsijský ringgit, Malajsie, MYR - nejlepší kurzy bank, kurzy ČNB">MYR</a></td>
+    <td id="kf__MYR"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__MYR"></td>
+    <td id="kz__MYR"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/MXN-mexicke-peso/" id="k__MXN" title="mexické peso, Mexiko, MXN - nejlepší kurzy bank, kurzy ČNB">MXN</a></td>
+    <td id="kf__MXN"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__MXN"></td>
+    <td id="kz__MXN"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/XDR-mmf/" id="k__XDR" title="MMF, MMF, XDR - nejlepší kurzy bank, kurzy ČNB">XDR</a></td>
+    <td id="kf__XDR"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__XDR"></td>
+    <td id="kz__XDR"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/NOK-norska-koruna/" id="k__NOK" title="norská koruna, Norsko, NOK - nejlepší kurzy bank, kurzy ČNB">NOK</a></td>
+    <td id="kf__NOK"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__NOK"></td>
+    <td id="kz__NOK"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/NZD-novozelandsky-dolar/" id="k__NZD" title="novozélandský dolar, Nový Zéland, NZD - nejlepší kurzy bank, kurzy ČNB">NZD</a></td>
+    <td id="kf__NZD"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__NZD"></td>
+    <td id="kz__NZD"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/PLN-polsky-zloty/" id="k__PLN" title="polský zlotý, Polsko, PLN - nejlepší kurzy bank, kurzy ČNB">PLN</a></td>
+    <td id="kf__PLN"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__PLN"></td>
+    <td id="kz__PLN"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/RON-rumunsky-lei/" id="k__RON" title="rumunský lei, Rumunsko, RON - nejlepší kurzy bank, kurzy ČNB">RON</a></td>
+    <td id="kf__RON"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__RON"></td>
+    <td id="kz__RON"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/RUB-rusky-rubl/" id="k__RUB" title="ruský rubl, Rusko, RUB - nejlepší kurzy bank, kurzy ČNB">RUB</a></td>
+    <td id="kf__RUB"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__RUB"></td>
+    <td id="kz__RUB"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/SGD-singapursky-dolar/" id="k__SGD" title="singapurský dolar, Singapur, SGD - nejlepší kurzy bank, kurzy ČNB">SGD</a></td>
+    <td id="kf__SGD"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__SGD"></td>
+    <td id="kz__SGD"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/SEK-svedska-koruna/" id="k__SEK" title="švédská koruna, Švédsko, SEK - nejlepší kurzy bank, kurzy ČNB">SEK</a></td>
+    <td id="kf__SEK"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__SEK"></td>
+    <td id="kz__SEK"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/CHF-svycarsky-frank/" id="k__CHF" title="švýcarský frank, Švýcarsko, CHF - nejlepší kurzy bank, kurzy ČNB">CHF</a></td>
+    <td id="kf__CHF"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__CHF"></td>
+    <td id="kz__CHF"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/THB-thajsky-baht/" id="k__THB" title="thajský baht, Thajsko, THB - nejlepší kurzy bank, kurzy ČNB">THB</a></td>
+    <td id="kf__THB"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__THB"></td>
+    <td id="kz__THB"></td>
+    </tr><tr>
+    <td><a href="https://www.kurzy.cz/kurzy-men/nejlepsi-kurzy/TRY-turecka-lira/" id="k__TRY" title="turecká lira, Turecko, TRY - nejlepší kurzy bank, kurzy ČNB">TRY</a></td>
+    <td id="kf__TRY"><div style="width:24px"></div></td>
+    <td style="text-align: right;" id="kk__TRY"></td>
+    <td id="kz__TRY"></td>
+    </tr>
+    </table>
+    </div>
+    <script src="https://data.kurzy.cz/export/kurzy-22.js" type="text/javascript" async> </script>
+
+</body>
+</html>
